@@ -10,6 +10,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [filebeat-playbook.txt](https://github.com/Grizzly567/Project1/files/7013429/filebeat-playbook.txt)
 
+[install-elk-yml.txt](https://github.com/Grizzly567/Project1/files/7031049/install-elk-yml.txt)
+
+
 
 This document contains the following details:
 - Description of the Topology
@@ -100,5 +103,5 @@ SSH into the control node and follow the steps below:
 Navigate back to the Filebeat installation page on the ELK server GUI.
 On the same page, scroll to Step 5: Module Status and click Check Data.
 Scroll to the bottom of the page and click Verify Incoming Data.
-If your configuration is successful you will get a message like this.
+If your configuration is successful you will get a message like this for both metricbeat and filebeat.
 ![Kibana Data Recieval](https://user-images.githubusercontent.com/79630983/130306749-656de5fb-00bb-43c8-91e2-51492fe2602a.PNG)
